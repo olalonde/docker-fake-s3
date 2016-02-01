@@ -1,6 +1,6 @@
 # docker-fake-s3
 
-Fake AWS S3 server that runs in docker for development.
+Fake AWS S3 server for local development based on [fake-s3](https://github.com/jubos/fake-s3). Runs in docker.
 
 Usage (in docker-compose.yml):
 
