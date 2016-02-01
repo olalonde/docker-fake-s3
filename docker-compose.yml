@@ -1,0 +1,6 @@
+fakes3:
+  build: .
+  ports:
+    - "4567:4567"
+  environment:
+    - PORT=4567
