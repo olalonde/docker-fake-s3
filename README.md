@@ -9,6 +9,8 @@ fakes3:
   image: olalond3/fakes3
   ports:
     - "4567:4567"
+  volumes:
+    - ./data:/fakes3/data
 ```
 
 See [fake-s3](https://github.com/jubos/fake-s3)
